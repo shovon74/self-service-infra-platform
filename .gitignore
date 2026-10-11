@@ -1,0 +1,87 @@
+# --- Agent / private files (never push) ---
+AGENTS.md
+AGENT.md
+agent.md
+CLAUDE.md
+GEMINI.md
+AGENT_BUILD_GUIDE.md
+.agents/
+.gemini/
+.claude/
+.cursor/
+.vscode/
+.idea/
+notes/
+private/
+scratch/
+
+# --- Terraform ---
+.terraform/
+.terraform.lock.hcl.bak
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+tfplan
+*.tfvars
+*.tfvars.json
+!*.tfvars.example
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+# servers data file written by the CLI may hold real values; commit an .example instead
+servers.auto.tfvars.json
+
+# --- Secrets / credentials ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*service-account*.json
+*credentials*.json
+application_default_credentials.json
+gcloud-key*.json
+vault_pass*
+.vault_pass
+*.vault
+
+# --- Ansible ---
+*.retry
+ansible/.ansible/
+.ansible/
+ansible/artifacts/
+ansible/private_data_dir/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# --- Logs ---
+*.log
