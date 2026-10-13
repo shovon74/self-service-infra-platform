@@ -5,6 +5,7 @@ agent.md
 CLAUDE.md
 GEMINI.md
 AGENT_BUILD_GUIDE.md
+/docs/implementation-plan.md
 .agents/
 .gemini/
 .claude/
